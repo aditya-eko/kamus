@@ -5,5 +5,5 @@ mahasiwa["asal"]="brebes"
 mahasiwa["fakultas"]="teknik informatika"
 mahasiwa["universitas"]="universitas teknologi jogjakarta"
 
-print(mahasiwa.items())
+print("ini adalah mahasiswa {}".format(mahasiwa.items()))
 

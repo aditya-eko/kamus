@@ -28,4 +28,4 @@ print(mahasiwa.items())
 del mahasiwa["nama"]
 
 
-print(mahasiwa)
+print("ini ada di kamus{}".format(mahasiwa))
