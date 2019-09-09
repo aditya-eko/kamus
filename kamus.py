@@ -16,3 +16,16 @@ print(mahasiwa["fakultas"])
 mahasiwa["nama"]="eko agus aditya"
 print(mahasiwa.items())
 mahasiwa["asal"]="jogjakarta"
+
+
+
+#menghapus item mahasiswa
+mahasiwa.pop("asal")   #pop di gunakan untuk menghapus isi list dengan menambahkan parameter key
+print(mahasiwa.items())
+mahasiwa.popitem()   #popitem yaitu menghapus item secara acak defaultnya adalah di belakang
+print(mahasiwa.items())
+
+del mahasiwa["nama"]
+
+
+print(mahasiwa)
