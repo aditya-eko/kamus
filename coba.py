@@ -6,3 +6,4 @@ mahasiwa["fakultas"]="teknik informatika"
 mahasiwa["universitas"]="universitas teknologi jogjakarta"
 
 print(mahasiwa.items())
+
